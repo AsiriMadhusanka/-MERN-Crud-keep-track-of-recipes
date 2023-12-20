@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* src/styles/RecipeList.css */
+
+/* Add your custom styles here if needed */
+
+/* Example styles for the RecipeList table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #e2e8f0;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #f7fafc;
+  }
+  
+  /* Add more styles as needed */
+  

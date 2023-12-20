@@ -1,0 +1,48 @@
+
+
+
+/* src/tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Customize Tailwind CSS styles here */
+.navbar {
+  background-color: #1a202c;
+}
+
+.navbar-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between; /* Align items to the start and end of the container */
+  align-items: center; /* Center items vertically */
+  padding: 1rem; /* Add padding for better spacing */
+}
+
+.navbar-logo {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-item {
+  margin-left: 1rem; /* Adjust margin to space out items */
+}
+
+.nav-links {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links:hover {
+  color: #4a5568;
+}

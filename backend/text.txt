@@ -1,0 +1,13 @@
+
+# DB_NAME=track-of-recipes
+# DB_URI=mongodb+srv://asirimadusanka02:aCrW8x97SkoPnsof@cluster01.cljkgcg.mongodb.net/?retryWrites=true&w=majority
+
+PORT=5000
+
+
+
+# DB_USERNAME=asirimadusanka02
+# DB_PASSWORD=aCrW8x97SkoPnsof
+# DB_NAME=track-of-recipes
+
+DB_URI=mongodb+srv://asirimadusanka02:aCrW8x97SkoPnsof@cluster01.cljkgcg.mongodb.net/track-of-recipes?retryWrites=true&w=majority
